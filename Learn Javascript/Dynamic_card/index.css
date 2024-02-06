@@ -1,0 +1,45 @@
+/* reset code start */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* reset cod end*/
+
+h4{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.posts{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post{
+    background-color: rgb(217, 205, 228);
+    width: 23%;
+    margin: 0.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.4s;
+}
+
+.post:hover{
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* responsive part*/
+@media screen and (max-width: 992px){
+    .post{
+        width: 48%;
+    }
+}
+/*mobile*/
+@media screen and(max-width: 600px){
+    .post{
+        width: 98%;
+    }
+}
