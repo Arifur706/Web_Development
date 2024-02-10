@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: bisque;
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.card{
+    background-color: blueviolet;
+    height: 10vh;
+    color: aliceblue;
+    padding: rem;
+    min-height: 80vh;
+    overflow: scroll;
+    border-radius: 0.6rem;
+    width: 50%;
+}
+
+.header{
+    margin-bottom: 1rem;
+}
+
+input{
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+}
+
+
+button{
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    transition: all;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: bisque;
+    color: black;
+}
+
+/* responsive part*/
+@media screen and (max-width: 992px){
+    .card{
+        width: 90%;
+    }
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 0.4rem;
+    transition: all 0.3s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(160, 105, 211);
+}
+.list:hover{
+    background-color: azure;
+    color: black;
+
+}
+
+.messege-success{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    border-left: 6px solid #04aa6d;
+    background-color: azure;
+}
+
+.messege-delete{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    border-left: 6px solid #04aa6d;
+    background-color: azure;
+}
