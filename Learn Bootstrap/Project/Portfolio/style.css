@@ -1,0 +1,176 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-image: url(images/andras-vas-Bd7gNnWJBkU-unsplash.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container{
+    height: 100vh;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(107, 138, 179, 0.3);
+}
+
+.nav-link{
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+    color: white;
+}
+
+.nav-link:hover{
+    background: rgb(161, 161, 238);
+    color: rgb(0, 4, 255);
+    
+}
+
+.navbar-icon{
+    color: white;
+}
+
+
+/* Education */
+icon-style{
+    color: white;
+    justify-content: center;
+}
+
+#edu{
+    color: white;
+    padding: 5% 5%;
+    background-color: rgba(143, 152, 185, 0.4);
+}
+
+.edu-col{
+    border: 1px solid #ccf70e;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0px;
+    background-color: rgba(176, 193, 216, 0.6);
+    transition: 0.4s;
+}
+
+.edu-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+/* contact */
+#contact{
+    color: white;
+    padding: 5% 5%;
+    background-color: rgba(143, 152, 185, 0.4);
+}
+.description{
+    padding: 5%;
+    transition: 0.4s;
+}
+
+.description:hover{
+    padding: 5%;
+    background-color: rgba(92, 76, 76, 0.5);
+    border: 2px solid yellow;
+    transform: scale(1.08);
+}
+.achivement{
+    padding: 5%;
+    transition: 0.4s;
+}
+
+.achivement:hover{
+    padding: 5%;
+    background-color: rgba(92, 76, 76, 0.5);
+    border: 2px solid yellow;
+    transform: scale(1.08);
+}
+.volunteering{
+    padding: 5%;
+    transition: 0.4s;
+}
+
+.volunteering:hover{
+    padding: 5%;
+    background-color: rgba(92, 76, 76, 0.5);
+    border: 2px solid yellow;
+    transform: scale(1.08);
+}
+
+/* Project */
+.project-container a{
+    color: white;
+}
+.web{
+    background-color: rgba(131, 148, 172, 0.6);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.machine-learning{
+    background-color: rgba(131, 148, 172, 0.6);
+    border-radius: 10px;
+    margin: 5px;
+}
+.android{
+    background-color: rgba(131, 148, 172, 0.6);
+    border-radius: 10px;
+    margin: 5px;
+}
+.project{
+    padding: 10px;
+    transition: 0.4s;
+}
+.project:hover{
+    background-color: rgba(66, 52, 52, 0.5);
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px black;
+    transform: scale(1.08);
+}
+
+/* publication */
+/* Project */
+.publication-container a{
+    color: white;
+}
+.conference-container{
+    background-color: rgba(131, 148, 172, 0.6);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.journal-container{
+    background-color: rgba(131, 148, 172, 0.6);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.conference{
+    padding: 10px;
+    transition: 0.4s;
+}
+.conference:hover{
+    background-color: rgba(66, 52, 52, 0.5);
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px black;
+    transform: scale(1.05);
+}
+
+.journal{
+    padding: 10px;
+}
+.journal:hover{
+    background-color: rgba(66, 52, 52, 0.5);
+    border-radius: 10px;
+    box-shadow: 2px 5px 5px black;
+}
